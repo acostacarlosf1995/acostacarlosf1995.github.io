@@ -1,0 +1,35 @@
+@import url(/css/menu-theme2.css);
+@import url(/css/search-theme2.css);
+@import url(/css/result-theme2.css);
+@import url(/css/tenden-theme2.css);
+@import url(/css/menu-upload2.css);
+@import url(/css/start-record2.css);
+@import url(/css/contGifUpload2.css);
+
+.dark-theme {
+    margin: 0;
+    padding: 0;
+    background: #110038 !important;
+}
+
+.dark-theme header .cont-mayor {
+    width: 100%;
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    box-shadow: 0 1px 0 0 #110038;
+}
+
+.dark-theme header .cont-mayor h1 {
+    font-size: 12px;
+    font-weight: normal;
+    color: #ffffff;
+    padding: 3px;
+}
+
+@media (max-width:542px) {
+    .dark-theme header .cont-mayor h1 {
+        font-size: 7px;
+        font-weight: normal;
+        color: #ffffff;
+        padding: 3px;
+    }
+}

@@ -1,0 +1,291 @@
+.dark-theme .contmayor-nav {
+    background: transparent;
+    width: 100%;
+    height: 120px;
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.dark-theme .cont-nav {
+    background: transparent;
+    width: 86%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dark-theme .cont-logo-light {
+    display: none;
+}
+
+.dark-theme .contmayor-buttons {
+    border: 2px solid transparent;
+    display: flex;
+    width: 410px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Crear Guifos Button */
+
+.dark-theme .btn-crear-guifos button {
+    width: 144px;
+    height: 36px;
+    background: #EE3EFE;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+    outline: none;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.dark-theme .btn-crear-guifos button:hover {
+    background: rgb(206, 54, 219);
+    outline: 1px dashed #110038;
+    outline-offset: -4px;
+    cursor: pointer;
+}
+
+/* Elegir Tema Button */
+
+.dark-theme .cont-dropdown {
+    border: 1px solid transparent;
+    width: 162px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+  
+.dark-theme .dropbtn {
+    color: #FFFFFF;
+    width: 127px;
+    height: 36px;
+    font-size: 14px;
+    font-family: 'Chakra Petch', sans-serif;
+    cursor: pointer;
+    background: #EE3EFE;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+  
+.dark-theme .dropbtn::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 126px;
+    width: 34px;
+    height: 34px; 	
+    background: #EE3EFE;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+  
+.dark-theme .dropbtn::after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 138px;
+    top: 50%;
+    margin-top: -3px;
+    border-width: 5px 5px 0px 5px;
+    border-style: solid;
+    border-color: #FFFFFF transparent;
+}
+  
+.dark-theme .dropbtn:hover,.dark-theme .dropbtn:hover:before,.dark-theme .dropbtn:focus,.dark-theme .dropbtn:focus:before {
+    background: rgb(206, 54, 219);
+    outline: 1px dashed #110038;
+    outline-offset: -4px;
+}
+  
+.dark-theme .dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dark-theme .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 161px;
+    height: 100px;
+    overflow: auto;
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+    z-index: 1;
+}
+  
+.dark-theme .container-dropdown {
+    width: 158px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+  
+.dark-theme .dropdown-content button {
+    color: #110038;
+    font-size: 14px;
+    width: 138px;
+    height: 36px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+}
+  
+.dark-theme .container-dropdown #sailorDay {
+    background: #CCCCCC;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.dark-theme .container-dropdown #sailorDay:hover {
+    background: rgba(204, 204, 204, 0.568);
+    border: 1px solid rgba(204, 204, 204, 0.548);
+    box-shadow: inset -1px -1px 0 0 rgb(136, 136, 136), inset 1px 1px 0 0 rgb(8, 0, 0);
+}
+
+.dark-theme .container-dropdown #sailorDay span {
+    margin-left: 18px;
+}
+
+.dark-theme .container-dropdown #sailorDay span::after {
+    display: none
+}
+
+.dark-theme #sailorNight {
+    background: #2E32FB;
+    box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.dark-theme #sailorNight:hover {
+    background: rgba(46, 49, 251, 0.712);
+    box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.dark-theme .container-dropdown #sailorNight span::after {
+    display: block;
+    content: '';
+    width: 12%;
+    height: 1px;
+    background: #FFFFFF;
+    position: relative;
+    bottom: 0;
+    left: 1px;
+}
+
+.dark-theme #sailorNight span {
+    margin-left: 18px;
+    color: #FFFFFF;
+}
+  
+.dark-theme .dropdown a:hover {background-color: #ddd;}
+  
+.dark-theme .show {display: block;}
+
+/* Mis Guifos Button */
+
+.dark-theme .cont-mis-guifos {
+    border: 1px transparent;
+    padding: 6px;
+}
+
+.dark-theme .cont-mis-guifos a::after {
+    display: block;
+    content: '';
+    width: 12%;
+    height: 1px;
+    background: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    left: 1px;
+}
+   
+.dark-theme .cont-mis-guifos a {
+   position: relative; 
+   color: #FFFFFF;
+   text-decoration: none;
+   font-size: 16px;
+}
+
+.dark-theme .cont-mis-guifos:hover {
+    border: 1px dashed #FFFFFF;
+    padding: 5px;
+}
+
+.dark-theme .cont-mis-guifos a:focus {
+    color: rgba(180, 180, 180, 0.493);
+}
+
+.dark-theme .cont-mis-guifos a:focus::after {
+    display: block;
+    content: '';
+    width: 12%;
+    height: 1px;
+    background: rgba(180, 180, 180, 0.747);
+    position: absolute;
+    bottom: 0;
+    left: 1px;
+}
+
+/* Responsive design */
+
+@media (max-width:690px) {
+
+    .dark-theme .contmayor-nav {
+        background: transparent;
+        width: 100%;
+        height: 160px;
+        margin-top: 1px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .dark-theme .cont-nav {
+        background: transparent;
+        width: 86%;
+        height: 160px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width:480px) {
+
+    .dark-theme .contmayor-nav {
+        background: transparent;
+        width: 100%;
+        height: 230px;
+        margin-top: 1px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .dark-theme .cont-nav {
+        background: transparent;
+        width: 86%;
+        height: 230px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .dark-theme .contmayor-buttons {
+        border: 2px solid transparent;
+        display: flex;
+        width: 200px;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}

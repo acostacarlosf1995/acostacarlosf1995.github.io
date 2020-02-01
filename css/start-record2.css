@@ -1,0 +1,292 @@
+.dark-theme .containerRecord {
+    display: none;
+}
+
+.dark-theme .containerRecord.displayShow {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dark-theme .recordGuifosCont {
+    width: 684px;
+    height: 386px;
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dark-theme .recordTitle {
+    width: 676px;
+    height: 24px;
+    margin-top: 2px;
+    padding-left: 4px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dark-theme .recordTitle img {
+    margin-right: 6px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.dark-theme .contVideo {
+    width: 668px;
+    height: 290px;
+    margin-top: 6px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+.dark-theme .contVideo video {
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 662px;
+    height: 284px;
+    object-fit: fill;
+    position: absolute;
+}
+
+.dark-theme .contVideo img {
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 662px;
+    height: 284px;
+    object-fit: fill;
+}
+
+.dark-theme .contBtnRecord {
+    width: 680px;
+    height: 59px;
+}
+
+.dark-theme .contTimer {
+    width: 144px;
+    height: 34px;
+    margin-left: 6px;
+}
+
+.dark-theme .recordCont {
+    width: 306px;
+    height: 34px;
+    display: flex;
+}
+
+.dark-theme .firstBtnCont {
+    display: flex;
+    width: 170px;
+    margin-left: 136px;
+}
+
+.dark-theme .cameraCap {
+    width: 144px;
+    height: 36px;
+    margin-right: 5px;
+    background: #EE3EFE;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+    color: #FFFFFF;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.dark-theme .cameraCap.cameraCapHover {
+    background: rgb(206, 54, 219);
+    outline: 1px dashed #110038;
+    outline-offset: -4px;
+}
+
+.dark-theme .cameraBtn {
+    width: 36px;
+    height: 36px;
+    background: #EE3EFE;
+    background-image: url(/images/camera_light.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+    color: #FFFFFF;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark-theme .cameraBtn.cameraBtnHover {
+    background: rgb(206, 54, 219);
+    background-image: url(/images/camera_light.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    outline: 1px dashed #110038;
+    outline-offset: -4px;
+}
+
+.dark-theme .secondBtnCont {
+    display: none;
+    width: 170px;
+    margin-left: 136px;
+}
+
+.dark-theme .cameraCap2 {
+    width: 144px;
+    height: 36px;
+    margin-right: 5px;
+    color: #FFFFFF;
+    background: #FF6161;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.dark-theme .cameraCap2.cameraCap2Hover {
+    background: rgb(207, 79, 79);
+    outline: 1px dashed #110038;
+    outline-offset: -4px;
+}
+
+.dark-theme .cameraBtn2 {
+    width: 36px;
+    height: 36px;
+    color: #FFFFFF;
+    background: #FF6161;
+    background-image: url(/images/recording.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark-theme .cameraBtn2.cameraBtn2Hover {
+    background: rgb(207, 79, 79);
+    outline: 1px dashed #110038;
+    outline-offset: -4px;
+    background-image: url(/images/recording.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dark-theme .thirdBtnCont {
+    position: absolute;
+    width: 301px;
+    justify-content: space-between;
+    display: none;
+}
+
+.dark-theme .repeatCap {
+    width: 144px;
+    height: 36px;
+    font-size: 14px;
+    background: #110038;
+    border: 1px solid #B4B4B4;
+    box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD;
+    color: #FFFFFF;
+    cursor: pointer;
+    outline: none;
+}
+
+.dark-theme .repeatCap:hover {
+    outline: 1px dashed #B4B4B4;
+    outline-offset: -4px;
+}
+
+.dark-theme .sendGif {
+    width: 144px;
+    height: 36px; 
+    font-size: 14px;
+    background: #EE3EFE;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.dark-theme .sendGif:hover {
+    background: rgb(206, 54, 219);
+    outline: 1px dashed #110038;
+    outline-offset: -4px;
+}
+
+.dark-theme .stopUpload {
+    width: 144px;
+    height: 36px;
+    font-size: 14px;
+    background: rgb(202, 202, 202);
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    cursor: pointer;
+    outline: none;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark-theme .stopUpload:hover {
+    background: rgb(211, 211, 211);
+    outline: 1px dashed #110038;
+    outline-offset: -4px;
+}
+
+.dark-theme .contWaitGifUpload {
+    width: 662px;
+    height: 284px;
+    margin-top: 36px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background: #FFFFFF;
+    display: none;
+}
+
+.dark-theme .contWaitGifUpload img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 10px;
+}
+
+.dark-theme .contWaitGifUpload p {
+    width: 300px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.dark-theme .progressBar {
+    width: 324px;
+    height: 24px;   
+    margin-top: 30px;
+    background: #B4B4B4;
+    box-shadow: inset 2px 2px 0 0 #000000, inset -2px -2px 0 0 #FFFCFC;
+    padding: 2px;
+}
+
+.dark-theme .progress {
+    width: 24px;
+    height: 24px;
+    background: rgb(206, 54, 219);
+}

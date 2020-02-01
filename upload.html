@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/theme1.css">
+    <link rel="stylesheet" href="/css/theme2.css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+
+        <div class="cont-mayor">
+
+            <div>
+
+                <h1>¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de visitas: 12.765.803</h1>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <nav>
+
+        <div class="contmayor-nav">
+
+            <div class="cont-nav">
+
+                <div class="cont-logo-light">
+
+                    <div class="arrowBack">
+
+                        <a href="/index.html"><img src="/images/arrow.svg" alt=""></a>
+
+                    </div>
+
+                    <a class="hrefLogoLight" href="/index.html"><img src="/images/gifOF_logo.png" alt="logo1"></a>
+
+                </div>
+
+                <div class="cont-logo-dark">
+
+                    <div class="arrowBackNight">
+
+                        <a href="/index.html"><img src="/images/arrow.svg" alt=""></a>
+
+                    </div>
+
+                    <a class="hrefLogoNight" href="/index.html"><img src="/images/gifOF_logo_dark.png" alt="logo2"></a>
+    
+                </div>
+                
+                <div class="contmayor-buttons">
+
+                    <div class="btn-crear-guifos">
+                        <button class="btnCreateGifos">Crear Guifos</button>
+                    </div>
+
+
+                    <div class="cont-dropdown">
+
+                        <div class="dropdown">
+
+                            <button onclick="myFunction()" class="dropbtn">Elegir tema</button>
+
+                            <div id="myDropdown" class="dropdown-content">
+
+                                <div class="container-dropdown">
+                                    <button id="sailorDay"><span>Sailor Day</span></button>
+                                    <button id="sailorNight"><span>Sailor Nigth</span></button>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div> 
+
+                    <div class="cont-mis-guifos">
+
+                        <a href="#" onclick="return showMyGuifosSave();">Mis Guifos</a>
+                            
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <section>
+
+        <div class="containerSection">
+
+            <div class="crearGifosAlert">
+
+                <div class="titleAlert">
+
+                    <p>Crear Guifos</p>
+
+                </div>
+
+                <div class="secondTitleAlert">
+
+                    <img src="/images/windowImg.png" alt="window">
+
+                    <p>Aquí podrás crear tus propios guifos</p>
+
+                </div>
+
+                <div class="thirdTitleCont">
+
+                    <div class="thirdTitleAlert">
+
+                        <p class="guifoTextAler">Crear tu <span class="guifoText">guifo</span> es muy fácil, graba cualquier imagen con tu cámara
+                        y obtén guifos personalizados. Los pasos para crear tu guifo son:</p>
+
+                        <p class="GuifoSpaceText"><span class="guifoNumber">1)</span> Dar permisos de acceso a la cámara (sólo por el tiempo de uso)</p>
+
+                        <p class="GuifoSpaceText"><span class="guifoNumber">2)</span> Capturar tu momento guifo</p>
+
+                        <p class="GuifoSpaceText"><span class="guifoNumber">3)</span> Revisar el momento</p>
+
+                        <p class="GuifoSpaceText"><span class="guifoNumber">4)</span> Listo para subir y compartir!</p>
+
+                        <p class="GuifoSpaceText">¿Quieres comenzar a crear tu <span class="guifoText">guifo</span> ahora?</p>
+
+                    </div>
+
+                </div>
+
+                <div class="btnAlert">
+
+                    <div class="btnCont">
+
+                       <button class="btnCancel" onclick="window.location.href = '/index.html';">Cancelar</button>
+                       
+                       <button class="btnStart">Comenzar</button>
+
+                    </div>
+
+                </div>
+    
+            </div>
+
+        </div>
+
+        <div class="containerRecord">
+
+            <div class="recordGuifosCont">
+
+                <div class="recordTitle">
+
+                    <p id="titleBeforeStart">Un Chequeo Antes De Empezar</p>
+
+                    <a href="/upload.html"><img src="/images/close.svg" alt=""></a>
+
+                </div>
+
+                <div class="contVideo">
+
+                    <video id="videoPlay" src="null"></video>
+
+                    <img id="videoPlay2" src="null" alt="">
+
+                </div>
+
+                <div class="contWaitGifUpload">
+
+                    <img src="/images/globe_img.png" alt="imgGlobe">
+
+                    <p>Estamos Subiendo tu guifo...</p>
+
+                    <div class="progressBar">
+
+                        <div id="progress" class="progress"></div>
+
+                    </div>
+
+                </div>
+
+                <div class="contBtnRecord">
+
+                    <div class="contTimer">
+                        <p id="outputTimer">00:00:00</p>
+                    </div>
+
+                    <div class="recordCont">
+
+                        <div class="firstBtnCont">
+
+                            <button class="cameraBtn"></button>
+
+                            <button class="cameraCap">Capturar</button>
+
+                        </div>
+
+                        <div class="secondBtnCont">
+
+                            <button class="cameraBtn2"></button>
+
+                            <button class="cameraCap2">Capturar</button>
+
+                        </div>
+
+                        <div class="thirdBtnCont">
+
+                            <button class="repeatCap">Repetir Captura</button>
+
+                            <button class="sendGif">Subir Guifo</button>
+
+                            <button class="stopUpload">Cancelar</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        
+        <div class="containerGifUpload">
+
+            <div class="gifUploadOk">
+
+                <div class="contUploadP">
+
+                    <p>Guifo Subido Con Exito</p>
+
+                </div>
+
+                <div class="contImgBtn">
+
+                    <div class="contImgUpload">
+
+                        <div class="gifUploadImg">
+
+                            <img class="imgUploadGiphy" src="null" alt="">
+
+                        </div>
+
+                    </div>
+
+                    <div class="contBtnUpload">
+
+                        <p>Guifo Creado Con Exito</p>
+
+                        <button class="btnCopyLink">Copiar Enlace Guifo</button>
+
+                        <button class="btnDownloadGif">Descargar Guifo</button>
+
+                        <button class="finishUpload">Listo</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="contMisGuifos">
+
+            <div class="misGuifosTitle">Mis Guifos</div>
+
+            <div class="contAllMyGuifos"></div>
+
+        </div>
+
+    </section>
+
+    <script src="/js/scripts-upload.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/RecordRTC/5.5.8/RecordRTC.js" type="text/javascript"></script>
+
+</body>
+</html>

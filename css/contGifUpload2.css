@@ -1,0 +1,263 @@
+.dark-theme .containerGifUpload {
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.dark-theme .gifUploadOk {
+    width: 684px;
+    height: 386px;
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dark-theme .contUploadP {
+    width: 675px;
+    height: 24px;
+    margin-top: 2px;
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.dark-theme .contUploadP p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.dark-theme .contImgBtn {
+    width: 675px;
+    height: 358px;
+    display: flex;
+    justify-content: center;
+}
+
+.dark-theme .contImgUpload {
+    width: 55%;
+    height: 350px;
+}
+
+.dark-theme .gifUploadImg {
+    width: 331px;
+    height: 166px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+.dark-theme .imgUploadGiphy {
+    width: 325px;
+    height: 160px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.dark-theme .contBtnUpload {
+    width: 45%;
+    height: 350px;
+}
+
+.dark-theme .contBtnUpload p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 48px;
+    margin-left: 20px;
+}
+
+.dark-theme .btnCopyLink {
+    width: 256px;
+    height: 36px;
+    margin-top: 15px;
+    font-size: 14px;
+    margin-left: 20px;
+    cursor: pointer;
+    outline: none;
+    background: rgb(202, 202, 202);
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.dark-theme .btnCopyLink:hover {
+    background: rgb(211, 211, 211);
+    outline: 1px dashed #110038;
+    outline-offset: -4px;
+}
+
+.dark-theme .btnDownloadGif {
+    width: 256px;
+    height: 36px;
+    margin-top: 15px;
+    font-size: 14px;
+    margin-left: 20px;
+    cursor: pointer;
+    outline: none;
+    background: rgb(202, 202, 202);
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.dark-theme .btnDownloadGif:hover {
+    background: rgb(211, 211, 211);
+    outline: 1px dashed #110038;
+    outline-offset: -4px;
+}
+
+.dark-theme .finishUpload {
+    width: 144px;
+    height: 36px;
+    font-size: 14px;
+    margin-top: 120px;
+    margin-left: 130px;
+    cursor: pointer;
+    outline: none;
+    background: #EE3EFE;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+    color: #FFFFFF;
+}
+
+.dark-theme .finishUpload:hover {
+    background: rgb(206, 54, 219);
+    outline: 1px dashed #110038;
+    outline-offset: -4px;
+}
+
+.dark-theme .contMisGuifos {
+    width: 100%;
+    height: 670px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.dark-theme .misGuifosTitle {
+    width: 85%;
+    height: 32px;
+    background: #FFFAFE;
+    border: 1px solid #2E32FB;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038; 
+    color: #110038;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.dark-theme .contAllMyGuifos {
+    width: 85.7%;
+    height: 640px;
+    margin-top: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.dark-theme #myGifos-res {
+    width: 296px;
+    height: 296px;
+    margin-right: 16px;
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dark-theme #myGifos-res:nth-of-type(4) {
+    margin-right: 0px;
+}
+
+.dark-theme #myGifos-res:nth-of-type(8) {
+    margin-right: 0px;
+}
+
+.dark-theme .cont-img-myGifos {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark-theme #gif-myGuifos-imgTag {
+    width: 100%;
+    height: 100%;
+}
+
+.dark-theme #gif-myGuifos-imgTag:hover {
+    width: 98%;
+    height: 98%;
+    outline: 1px dashed #110038;
+}
+
+@media (max-width:1280px) {
+
+    .dark-theme .contMisGuifos {
+        width: 100%;
+        height: 600px;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+    
+    .dark-theme .misGuifosTitle {
+        width: 85%;
+        height: 32px;
+        background: #FFFAFE;
+        border: 1px solid #2E32FB;
+        box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+        color: #110038;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+    }
+    
+    .dark-theme .contAllMyGuifos {
+        width: 85.7%;
+        height: 560px;
+        margin-top: 14px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
+    .dark-theme #myGifos-res {
+        width: 258px;
+        height: 258px;
+        background: #B4B4B4;
+        box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .dark-theme .cont-img-myGifos {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .dark-theme #gif-myGuifos-imgTag {
+        width: 100%;
+        height: 100%;
+    }
+}

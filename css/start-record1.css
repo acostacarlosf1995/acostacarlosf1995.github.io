@@ -1,0 +1,301 @@
+.containerRecord {
+    display: none;
+}
+
+.containerRecord.displayShow {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.recordGuifosCont {
+    width: 684px;
+    height: 386px;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recordTitle {
+    width: 676px;
+    height: 24px;
+    margin-top: 2px;
+    padding-left: 4px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recordTitle img {
+    margin-right: 6px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.contVideo {
+    width: 668px;
+    height: 290px;
+    margin-top: 6px;
+    border: 1px solid #979797;
+    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+    display: flex;
+}
+
+.contVideo video {
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 662px;
+    height: 284px;
+    object-fit: fill;
+    position: absolute;
+}
+
+.contVideo img {
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 662px;
+    height: 284px;
+    object-fit: fill;
+}
+
+.contBtnRecord {
+    width: 680px;
+    height: 59px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contTimer {
+    width: 144px;
+    height: 34px;
+    margin-left: 6px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recordCont {
+    width: 306px;
+    height: 34px;
+    display: flex;
+}
+
+.firstBtnCont {
+    display: flex;
+    width: 170px;
+    margin-left: 136px;
+}
+
+.cameraCap {
+    width: 144px;
+    height: 36px;
+    margin-right: 5px;
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    color: #110038;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.cameraCap.cameraCapHover {
+    background: #E6BBE2;
+    outline: 1px dashed #110038;
+    outline-offset: -4px;
+}
+
+.cameraBtn {
+    width: 36px;
+    height: 36px;
+    background: #F7C9F3;
+    background-image: url(/images/camera.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    color: #110038;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cameraBtn.cameraBtnHover {
+    background: #E6BBE2;
+    background-image: url(/images/camera.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    outline: 1px dashed #110038;
+    outline-offset: -4px;
+}
+
+.secondBtnCont {
+    display: none;
+    width: 170px;
+    margin-left: 136px;
+}
+
+.cameraCap2 {
+    width: 144px;
+    height: 36px;
+    margin-right: 5px;
+    color: #FFFFFF;
+    background: #FF6161;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.cameraCap2.cameraCap2Hover {
+    background: rgb(207, 79, 79);
+    outline: 1px dashed #110038;
+    outline-offset: -4px;
+}
+
+.cameraBtn2 {
+    width: 36px;
+    height: 36px;
+    color: #FFFFFF;
+    background: #FF6161;
+    background-image: url(/images/recording.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cameraBtn2.cameraBtn2Hover {
+    background: rgb(207, 79, 79);
+    outline: 1px dashed #110038;
+    outline-offset: -4px;
+    background-image: url(/images/recording.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.thirdBtnCont {
+    position: absolute;
+    width: 301px;
+    justify-content: space-between;
+    display: none;
+}
+
+.repeatCap {
+    width: 144px;
+    height: 36px;
+    font-size: 14px;
+    background: #FFF4FD;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    cursor: pointer;
+    outline: none;
+}
+
+.repeatCap:hover {
+    background: rgb(219, 219, 219);
+    outline: 1px dashed #110038;
+    outline-offset: -4px;
+}
+
+.sendGif {
+    width: 144px;
+    height: 36px; 
+    font-size: 14px;
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    cursor: pointer;
+    outline: none;
+}
+
+.sendGif:hover {
+    background: #E6BBE2;
+    outline: 1px dashed #110038;
+    outline-offset: -4px;
+}
+
+.stopUpload {
+    width: 144px;
+    height: 36px;
+    font-size: 14px;
+    background: #FFF4FD;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    cursor: pointer;
+    outline: none;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.stopUpload:hover {
+    background: rgb(219, 219, 219);
+    outline: 1px dashed #110038;
+    outline-offset: -4px;
+}
+
+.contWaitGifUpload {
+    width: 662px;
+    height: 284px;
+    margin-top: 36px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background: #FFFFFF;
+    display: none;
+}
+
+.contWaitGifUpload img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 10px;
+}
+
+.contWaitGifUpload p {
+    width: 300px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.progressBar {
+    width: 324px;
+    height: 24px;   
+    margin-top: 30px;
+    background: #B4B4B4;
+    box-shadow: inset 2px 2px 0 0 #000000, inset -2px -2px 0 0 #FFFCFC;
+    padding: 2px;
+}
+
+.progress {
+    width: 24px;
+    height: 24px;
+    background: #F7C9F3;
+}

@@ -1,0 +1,159 @@
+.dark-theme #tendencia {
+    position: absolute;
+    width: 1224px;
+    height: 32px;
+    margin-top: 430px;
+    background: #FFFAFE;
+    border: 1px solid #2E32FB;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+    color: #110038;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.dark-theme #gif-tendencia {
+    position: absolute;
+    margin-top: 484px;
+    width: 1240px;
+    height: 1560px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.dark-theme #gif-tendencia-cont {
+    width: 100%;
+    height: 100%;
+    /* height: 260px; */
+}
+
+.dark-theme #gif-tendencia-res {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 297px;
+    height: 298px;
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #5C5C5C, inset 2px 2px 0 0 #FFFFFF;
+    cursor: pointer;
+}
+
+.dark-theme #gif-tendencia-res:hover {
+    outline: 1px dashed #110038;
+    outline-offset: -4px;
+}
+
+.dark-theme .cont-img-tend {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.dark-theme #gif-tendencia-res:hover > .cont-img-tend {
+    height: 90%;
+    width: 98%;
+}
+
+.dark-theme #gif-tendencia-res:nth-of-type(5) {
+    width: 611px;
+    height: 298px;
+}
+
+.dark-theme #gif-tendencia-res:nth-of-type(10) {
+    width: 612px;
+    height: 298px;
+}
+
+.dark-theme #gif-tendencia-res:nth-of-type(11) {
+    width: 611px;
+    height: 298px;
+}
+
+.dark-theme #cont-img-title {
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    width: 98%;
+    height: 0;
+    display: flex;
+    align-items: center;
+    color: transparent;
+}
+
+.dark-theme #gif-tendencia-res:hover > #cont-img-title {
+    height: 24px;
+    color: white;
+}
+
+.dark-theme #gif-tend-title {
+    padding-left: 6px;
+    overflow: hidden;
+}
+
+.dark-theme #gif-tendencia-res:hover > #gif-tend-title {
+    font-size: 24px;
+}
+
+@media (max-width:1280px) {
+
+    .dark-theme #tendencia {
+        position: absolute;
+        width: 1076px;
+        height: 32px;
+        margin-top: 396px;
+        background: #FFFAFE;
+        border: 1px solid #2E32FB;
+        box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+        color: #110038;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+    }
+
+    .dark-theme #gif-tendencia {
+        position: absolute;
+        margin-top: 456px;
+        width: 1086px;
+        height: 1388px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        cursor: pointer;
+    }
+
+    .dark-theme #gif-tendencia-res {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 254px;
+        height: 254px;
+        background: #B4B4B4;
+        box-shadow: inset -2px -2px 0 0 #5C5C5C, inset 2px 2px 0 0 #FFFFFF;
+        cursor: pointer;
+    }
+
+    .dark-theme #gif-tendencia-res:nth-of-type(5) {
+        width: 531px;
+        height: 254px;
+    }
+    
+    .dark-theme #gif-tendencia-res:nth-of-type(10) {
+        width: 531px;
+        height: 254px;
+    }
+    
+    .dark-theme #gif-tendencia-res:nth-of-type(11) {
+        width: 531px;
+        height: 254px;
+    }
+
+    .dark-theme #gif-tendencia-res:hover > .cont-img-tend {
+        height: 88%;
+        width: 98%;
+    }
+}

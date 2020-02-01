@@ -1,0 +1,303 @@
+.contmayor-nav {
+    background: transparent;
+    width: 100%;
+    height: 120px;
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.cont-nav {
+    background: transparent;
+    width: 86%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont-logo-dark {
+    display: none;
+}
+
+.dark-theme .cont-logo-dark {
+    display: initial;
+}
+
+.contmayor-buttons {
+    border: 2px solid transparent;
+    display: flex;
+    width: 410px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contmayor-buttons2 {
+    border: 2px solid transparent;
+    display: flex;
+    width: 258px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Crear Guifos Button */
+
+.btn-crear-guifos button {
+    width: 144px;
+    height: 36px;
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    outline: none;
+    font-size: 14px;
+    color: #110038
+}
+
+.btn-crear-guifos button:hover {
+    background: #E6BBE2;
+    outline: 1px dashed #110038;
+    outline-offset: -4px;
+    cursor: pointer;
+}
+
+/* Elegir Tema Button */
+
+.cont-dropdown {
+    border: 1px solid transparent;
+    width: 162px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+  
+.dropbtn {
+    color: #110038;
+    width: 127px;
+    height: 36px;
+    font-size: 14px;
+    font-family: 'Chakra Petch', sans-serif;
+    cursor: pointer;
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+  
+.dropbtn::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 126px;
+    width: 34px;
+    height: 34px; 	
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+  
+.dropbtn::after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 138px;
+    top: 50%;
+    margin-top: -3px;
+    border-width: 5px 5px 0px 5px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0) transparent;
+}
+  
+.dropbtn:hover, .dropbtn:hover:before, .dropbtn:focus, .dropbtn:focus:before {
+    background: #E6BBE2;
+    outline: 1px dashed #110038;
+    outline-offset: -4px;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 161px;
+    height: 100px;
+    overflow: auto;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    z-index: 1;
+}
+  
+.container-dropdown {
+    width: 158px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+  
+.dropdown-content button {
+    color: #110038;
+    font-size: 14px;
+    width: 138px;
+    height: 36px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+}
+  
+.container-dropdown #sailorDay {
+    background: #FFF4FD;
+    border: 1px solid #CCA6C9;
+    box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.container-dropdown #sailorDay:hover {
+    background: #F7C9F3;
+    border: 1px solid #CCA6C9;
+    box-shadow: inset -1px -1px 0 0 #E6BBE2, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.container-dropdown #sailorDay span {
+    margin-left: 18px;
+}
+
+.container-dropdown #sailorDay span::after {
+    display: block;
+    content: '';
+    width: 12%;
+    height: 1px;
+    background: black;
+    position: relative;
+    bottom: 0;
+    left: 1px;
+}
+
+#sailorNight {
+    background: #F0F0F0;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+#sailorNight:hover {
+    background: #F0F0F0;
+    border: 1px solid rgba(204, 204, 204, 0.548);
+    box-shadow: inset -1px -1px 0 0 rgb(136, 136, 136), inset 1px 1px 0 0 rgb(8, 0, 0);
+}
+
+#sailorNight span {
+    margin-left: 18px;
+}
+  
+.dropdown a:hover {background-color: #ddd;}
+  
+.show {display: block;}
+
+/* Mis Guifos Button */
+
+.cont-mis-guifos {
+    border: 1px transparent;
+    padding: 6px;
+}
+
+.cont-mis-guifos a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.cont-mis-guifos a::after {
+    display: block;
+    content: '';
+    width: 12%;
+    height: 1px;
+    background: black;
+    position: absolute;
+    bottom: 0;
+    left: 1px;
+}
+   
+.cont-mis-guifos a {
+   position: relative; 
+   color: black;
+}
+
+.cont-mis-guifos:hover {
+    border: 1px dashed #110038;
+    padding: 5px;
+}
+
+.cont-mis-guifos a:focus {
+    color: #B4B4B4;
+}
+
+.cont-mis-guifos a:focus::after {
+    display: block;
+    content: '';
+    width: 12%;
+    height: 1px;
+    background: rgba(180, 180, 180, 0.747);
+    position: absolute;
+    bottom: 0;
+    left: 1px;
+}
+
+/* Responsive design */
+
+@media (max-width:690px) {
+
+    .contmayor-nav {
+        background: transparent;
+        width: 100%;
+        height: 160px;
+        margin-top: 1px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .cont-nav {
+        background: transparent;
+        width: 86%;
+        height: 160px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width:480px) {
+
+    .contmayor-nav {
+        background: transparent;
+        width: 100%;
+        height: 230px;
+        margin-top: 1px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .cont-nav {
+        background: transparent;
+        width: 86%;
+        height: 230px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contmayor-buttons {
+        border: 2px solid transparent;
+        display: flex;
+        width: 200px;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}

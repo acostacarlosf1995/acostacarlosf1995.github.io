@@ -1,0 +1,42 @@
+@import url(/css/menu-theme1.css);
+@import url(/css/search-theme1.css);
+@import url(/css/result-theme1.css);
+@import url(/css/tenden-theme1.css);
+@import url(/css/menu-upload1.css);
+@import url(/css/start-record1.css);
+@import url(/css/contGifUpload1.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(255, 244, 253) !important;
+}
+
+header .cont-mayor {
+    width: 100%;
+    background: linear-gradient(to right, #4180F6, #F7C9F3);
+    box-shadow: 0px 1px 0px 0px #110038;
+}
+
+header .cont-mayor h1 {
+    font-size: 12px;
+    font-weight: normal;
+    color: #ffffff;
+    padding: 3px;
+}
+
+@media (max-width:542px) {
+    header .cont-mayor h1 {
+        font-size: 7px;
+        font-weight: normal;
+        color: #ffffff;
+        padding: 3px;
+    }
+}
+

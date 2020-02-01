@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/theme1.css">
+    <link rel="stylesheet" href="/css/theme2.css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <title>Proyecto GifOs</title>
+</head>
+<body>
+
+    <header>
+
+        <div class="cont-mayor">
+
+            <div>
+
+                <h1>¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de visitas: 12.765.803</h1>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <nav>
+
+        <div class="contmayor-nav">
+
+            <div class="cont-nav">
+
+                <div class="cont-logo-light">
+
+                    <a href="/index.html"><img src="/images/gifOF_logo.png" alt="logo1"></a>
+
+                </div>
+
+                <div class="cont-logo-dark">
+
+                    <a href="/index.html"><img src="/images/gifOF_logo_dark.png" alt="logo2"></a>
+    
+                </div>
+                
+                <div class="contmayor-buttons">
+
+                    <div class="btn-crear-guifos">
+                        <button class="btnCreateGifos">Crear Guifos</button>
+                    </div>
+
+
+                    <div class="cont-dropdown">
+
+                        <div class="dropdown">
+
+                            <button onclick="myFunction()" class="dropbtn">Elegir tema</button>
+
+                            <div id="myDropdown" class="dropdown-content">
+
+                                <div class="container-dropdown">
+                                    <button id="sailorDay"><span>Sailor Day</span></button>
+                                    <button id="sailorNight"><span>Sailor Nigth</span></button>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div> 
+
+                    <div class="cont-mis-guifos">
+
+                        <a href="#" onclick="return showMyGuifosSaveIndex();">Mis Guifos</a>
+                            
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </nav>
+    
+    <main>
+
+        <div class="search-cont">
+
+            <div class="search-box">
+
+                <div class="search-title">
+
+                    <p>Buscar</p>
+
+                    <input id="search-text" autocomplete="off" type="search" placeholder="Busca gifs, hashtags, temas, busca lo que quieras…">
+
+                    <button id="search-btn" class="search-button" onclick="searchGif()">Buscar</button>
+
+                </div>
+
+            </div>
+            
+        </div>
+
+        <div class="search-found-cont">
+
+            <div class="search-found"></div>
+
+        </div>
+
+        <div id="cont-result">
+
+            <div id="result">Hoy te sugerimos:</div>
+
+            <div id="gif-trending"></div>
+
+            <div id="tendencia">Tendencias:</div>
+
+            <div id="gif-tendencia"></div>
+
+        </div>
+
+        <div id="cont-gif-result">
+
+            <div id="gif-result"></div>
+
+        </div>
+
+        <div class="contMisGuifos">
+
+            <div class="misGuifosTitle">Mis Guifos</div>
+
+            <div class="contAllMyGuifos"></div>
+
+        </div>
+        
+    </main>
+
+    <script src="/js/scripts.js"></script>
+
+</body>
+</html>

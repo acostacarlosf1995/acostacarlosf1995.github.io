@@ -1,0 +1,263 @@
+.containerGifUpload {
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.gifUploadOk {
+    width: 684px;
+    height: 386px;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contUploadP {
+    width: 675px;
+    height: 24px;
+    margin-top: 2px;
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.contUploadP p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.contImgBtn {
+    width: 675px;
+    height: 358px;
+    display: flex;
+    justify-content: center;
+}
+
+.contImgUpload {
+    width: 55%;
+    height: 350px;
+}
+
+.gifUploadImg {
+    width: 331px;
+    height: 166px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+.imgUploadGiphy {
+    width: 325px;
+    height: 160px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.contBtnUpload {
+    width: 45%;
+    height: 350px;
+}
+
+.contBtnUpload p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 48px;
+    margin-left: 20px;
+}
+
+.btnCopyLink {
+    width: 256px;
+    height: 36px;
+    margin-top: 15px;
+    font-size: 14px;
+    margin-left: 20px;
+    cursor: pointer;
+    outline: none;
+    background: #FFF4FD;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.btnCopyLink:hover {
+    background: rgb(231, 231, 231);
+    outline: 1px dashed #110038;
+    outline-offset: -4px;
+}
+
+.btnDownloadGif {
+    width: 256px;
+    height: 36px;
+    margin-top: 15px;
+    font-size: 14px;
+    margin-left: 20px;
+    cursor: pointer;
+    outline: none;
+    background: #FFF4FD;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.btnDownloadGif:hover {
+    background: rgb(231, 231, 231);
+    outline: 1px dashed #110038;
+    outline-offset: -4px;
+}
+
+.finishUpload {
+    width: 144px;
+    height: 36px;
+    font-size: 14px;
+    margin-top: 120px;
+    margin-left: 130px;
+    cursor: pointer;
+    outline: none;
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.finishUpload:hover {
+    background: #E6BBE2;
+    outline: 1px dashed #110038;
+    outline-offset: -4px;
+}
+
+.contMisGuifos {
+    width: 100%;
+    height: 670px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.misGuifosTitle {
+    width: 85%;
+    height: 32px;
+    background: #FFFAFE;
+    border: 1px solid #E6BBE2;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+    color: #110038;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.contAllMyGuifos {
+    width: 85.7%;
+    height: 640px;
+    margin-top: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#myGifos-res {
+    width: 296px;
+    height: 296px;
+    margin-right: 16px;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#myGifos-res:nth-of-type(4) {
+    margin-right: 0px;
+}
+
+#myGifos-res:nth-of-type(8) {
+    margin-right: 0px;
+}
+
+.cont-img-myGifos {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gif-myGuifos-imgTag {
+    width: 100%;
+    height: 100%;
+}
+
+#gif-myGuifos-imgTag:hover {
+    width: 98%;
+    height: 98%;
+    outline: 1px dashed #110038;
+}
+
+@media (max-width:1280px) {
+
+    .contMisGuifos {
+        width: 100%;
+        height: 600px;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+    
+    .misGuifosTitle {
+        width: 85%;
+        height: 32px;
+        background: #FFFAFE;
+        border: 1px solid #E6BBE2;
+        box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+        color: #110038;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+    }
+    
+    .contAllMyGuifos {
+        width: 85.7%;
+        height: 560px;
+        margin-top: 14px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
+    #myGifos-res {
+        width: 258px;
+        height: 258px;
+        background: #E6E6E6;
+        box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cont-img-myGifos {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #gif-myGuifos-imgTag {
+        width: 100%;
+        height: 100%;
+    }
+
+}
