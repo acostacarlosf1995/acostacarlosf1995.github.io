@@ -1,2 +1,2 @@
-### acostacarlosf1995.github.io
-proyecto GifOs Acamica
+### Proyecto GifOs
+<img src="images/README-Proyecto-Gifos" width="940px">
