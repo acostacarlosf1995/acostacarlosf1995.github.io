@@ -1,2 +1,2 @@
 ### Proyecto GifOs
-<img src="images/README-Proyecto-Gifos" width="940px">
+<img src="images/README-Proyecto-Gifos.png" width="940px">
